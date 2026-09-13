@@ -122,11 +122,11 @@ class ProxyPanel(QWidget):
         form.setLabelAlignment(Qt.AlignLeft)
 
         self.ip_edit = LineEdit()
-        self.ip_edit.setPlaceholderText("например 172.22.245.15")
+        self.ip_edit.setPlaceholderText("например 178.44.245.15")
         self.ip_edit.setClearButtonEnabled(True)
 
         self.port_edit = LineEdit()
-        self.port_edit.setPlaceholderText("например 8888")
+        self.port_edit.setPlaceholderText("например 9999")
         self.port_edit.setClearButtonEnabled(True)
 
         self.override_edit = LineEdit()
