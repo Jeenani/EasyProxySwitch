@@ -5,6 +5,8 @@ HTTP-прокси (реестр `HKCU\...\Internet Settings`) без поход�
 настройки. Интерфейс в стиле Fluent Design (Windows 11) на базе
 PyQt-Fluent-Widgets.
 
+![ProxySwitcher](Resources/main.png)
+
 ## Возможности
 
 - Включение/выключение системного прокси одним тумблером
@@ -16,7 +18,7 @@ PyQt-Fluent-Widgets.
 
 ```
 pip install PyQt5 PyQt-Fluent-Widgets
-python proxy_toggle_fluent_v2.py
+python proxy_toggle.py
 ```
 
 ## Сборка в один exe
